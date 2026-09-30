@@ -9,7 +9,7 @@ CREATE TABLE IF NOT EXISTS dim_clientes (
 
 CREATE TABLE IF NOT EXISTS dim_vehiculos (
     id_vehiculo INT AUTO_INCREMENT PRIMARY KEY,
-    tipo_vehiculo VARCHAR(50),  -- Deportivo, Familiar, Sedán
+    tipo_vehiculo VARCHAR(50),  -- Deportivo, Familiar, Sedán, etc.
     clasificacion_riesgo VARCHAR(20)
 );
 
